@@ -1,0 +1,6 @@
+@Dynasty8.APIs_HostAddress = http://localhost:5167
+
+GET {{Dynasty8.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
