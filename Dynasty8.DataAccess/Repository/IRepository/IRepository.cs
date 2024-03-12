@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Dynasty8.DataAccess.Repository.IRepository
 {
-    public interface IRepository
+    public interface IRepository<T> where T : class
     {
-        void d();
+        Task d();
     }
 }
